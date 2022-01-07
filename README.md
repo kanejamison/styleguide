@@ -1,4 +1,6 @@
-# styleguide
+# Learn To Be Style Guide
+
+This is a shortcut to various things we may need access to as we use our new style guide.
 
 # Colors #
 
