@@ -44,7 +44,7 @@ Also: [Satoshi](https://www.fontshare.com/fonts/satoshi)
 ![LTB Logo Reverse](/assets/ltb_logo_reverse_large.png)
 
 ## Tailwind Style Tile
-Here is a Tailwind Play link version of our Style Tile: [https://play.tailwindcss.com/mpPISdjAd2](https://play.tailwindcss.com/mpPISdjAd2)
+Here is a Tailwind Play link version of our Style Tile: [https://play.tailwindcss.com/mpPISdjAd2](https://play.tailwindcss.com/mpPISdjAd2) (URL will change if you save new changes to this)
 
 This can help preview changes between Tailwind versions, since the official Tailwind colors will shift over time. In general, Tailwind 4 seems to be the best match so far for our image style tile above.
 
@@ -53,50 +53,63 @@ This can help preview changes between Tailwind versions, since the official Tail
 
 You can also paste this code to rebuilt it. 
 ```
-<div class="grid grid-cols-5 grid-rows-5 text-gray-900">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+
+<div class="grid grid-cols-5 grid-rows-5 font-display text-gray-900">
   <div class="col-span-2 row-span-5 bg-blue-600 p-4 text-white">
     <ul>
-      <li class="font-bold">Dream Big Blue</li>
+      <li class="font-serif text-2xl">Dream Big Blue</li>
       <li>blue-600</li>
     </ul>
   </div>
   <div class="col-span-3 col-start-3 row-span-2 flex flex-row">
     <div class="grow bg-blue-300 p-4">
       <ul>
-        <li class="font-bold">Sky Blue</li>
+        <li class="font-serif text-2xl">Sky Blue</li>
         <li>blue-300</li>
       </ul>
     </div>
     <div class="grow bg-blue-100 p-4">
       <ul>
-        <li class="font-bold">Cloud Blue</li>
+        <li class="font-serif text-2xl">Cloud Blue</li>
         <li>blue-100</li>
       </ul>
     </div>
   </div>
   <div class="col-span-3 col-start-3 row-start-3 bg-gray-900 p-4 text-white">
     <ul>
-      <li class="font-bold">Midnight</li>
+      <li class="font-serif text-2xl">Midnight</li>
       <li>gray-900</li>
     </ul>
   </div>
   <div class="col-start-3 row-span-2 row-start-4 bg-white p-4">
     <ul>
-      <li class="font-bold">White</li>
+      <li class="font-serif text-2xl">White</li>
       <li>white</li>
     </ul>
   </div>
   <div class="col-start-4 row-span-2 row-start-4 bg-orange-100 p-4">
     <ul>
-      <li class="font-bold">Daydream Orange</li>
+      <li class="font-serif text-2xl">Daydream Orange</li>
       <li>orange-100</li>
     </ul>
   </div>
   <div class="col-start-5 row-span-2 row-start-4 bg-orange-600 p-4 text-white">
     <ul>
-      <li class="font-bold">Electric Orange</li>
+      <li class="font-serif text-2xl">Electric Orange</li>
       <li>orange-600</li>
     </ul>
   </div>
 </div>
+```
+
+And you will need to add this in the CSS tab to set the fonts:
+
+```
+@theme {
+  --font-serif: "Crimson Text", "serif";
+  --font-display: "DM Sans", "sans-serif";
+}
 ```
