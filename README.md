@@ -10,13 +10,14 @@ This is a shortcut to various things we may need access to as we use our new sty
 
 ## Colors Table
 
-**NAME**|**RGB**|**HEX**|**CMYK**|**PANTONE**|**Custom TAILWIND**|**TAILWIND**|**OKLCH**
+**NAME**|**RGB**|**HEX**|**CMYK**|**PANTONE**|**Custom TAILWIND**|**Nearest TAILWIND**|**OKLCH**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-Dream Big Blue| 37-99-235| #2563EB|84-57-0-0| 2386 C| | blue-600| oklch(54.61% 0.2152 262.88)
-Sky Blue| 147-197-253| #93C5FD| 41-11-0-0| 283 C| | blue-300| oklch(80.91% 0.0956 251.81)|
-Cloud Blue| 219-234-254| #DBEAFE| 20-6-0-0| 643 C| | blue-100| oklch(93.19% 0.0316 255.59)
-Midnight| 17-24-39| #111827| 100-58-21-92| 7547 C| | gray-900| oklch(21.01% 0.0318 264.66)
-Electric Orange| 240-78-35| #F04E23| 0-80-98-0| 172 C| | orange-600| oklch(64.53% 0.2054 35.1)
+Dream Big Blue| 37-99-235| #2563EB|84-57-0-0| 2386 C| exact | blue-600| oklch(54.61% 0.2152 262.88)
+Sky Blue| 147-197-253| #93C5FD| 41-11-0-0| 283 C| exact | blue-300| oklch(80.91% 0.0956 251.81)|
+Cloud Blue| 219-234-254| #DBEAFE| 20-6-0-0| 643 C| exact | blue-100| oklch(93.19% 0.0316 255.59)
+Midnight| 17-24-39| #111827| 100-58-21-92| 7547 C| exact | gray-900| oklch(21.01% 0.0318 264.66)
+Daydream Orange| 255-236-209| #FFECD1| 3-15-30-0| 4029 C| CLOSE | orange-100| oklch(95.13% 0.041 76.75)
+Electric Orange| 240-78-35| #F04E23| 0-80-98-0| 172 C| CLOSE | orange-600| oklch(64.53% 0.2054 35.1)
 
 # Fonts 
 
